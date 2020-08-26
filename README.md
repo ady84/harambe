@@ -1,2 +1,2 @@
-# harambe
-harambe
+# Harambe
+Pray to Harambe
