@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>HARAMBE</title>
+      <script>
+         var clicks = 0;
+         function myFunction() {
+         clicks += 1;
+         document.getElementById("clicks").innerHTML = clicks;
+         }
+      </script>
+   </head>
+   <style>
+      p {text-align: center;}
+   </style>
+      <body style="background-color:powderblue;">
+      <center><img src="763.jpg" alt="Harambe" width="600" height="600"></center>
+      <p style="font-size:72px">PRAY TO HARAMBE</p>
+      <center><button onclick="myFunction()">PRAY</button></center>
+      <p>TIMES PRAYED: <a id="clicks">0</a></p>
+   </body>
+</html>
