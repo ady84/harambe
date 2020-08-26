@@ -1,2 +1,1 @@
 # Harambe
-Pray to Harambe
