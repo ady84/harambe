@@ -4,19 +4,19 @@
       <title>HARAMBE</title>
       <script>
          var clicks = 0;
-         function myFunction() {
+         function button() {
          clicks += 1;
          document.getElementById("clicks").innerHTML = clicks;
          }
       </script>
+      <style>
+         p {text-align: center;}
+      </style>
    </head>
-   <style>
-      p {text-align: center;}
-   </style>
-      <body style="background-color:powderblue;">
+   <body style="background-color:powderblue;">
       <center><img src="harambe.jpg" alt="Harambe" width="600" height="600"></center>
       <p style="font-size:72px">PRAY TO HARAMBE</p>
-      <center><button onclick="myFunction()">PRAY</button></center>
+      <center><button onclick="button()">PRAY</button></center>
       <p>TIMES PRAYED: <a id="clicks">0</a></p>
    </body>
 </html>
